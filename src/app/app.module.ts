@@ -11,7 +11,6 @@ import {
   HttpClient,
   HttpClientModule,
 } from '@angular/common/http';
-import { AdminComponent } from './pages/admin/admin.component';
 import { FooterComponent } from './footer/footer.component';
 import { ShowdestinationComponent } from './pages/showdestination/showdestination.component';
 import { HotelslistComponent } from './pages/hotelslist/hotelslist.component';
@@ -20,14 +19,14 @@ import { HistoricalplaceComponent } from './pages/historicalplace/historicalplac
 import { CulturalplacesComponent } from './pages/culturalplaces/culturalplaces.component';
 import { CuisineComponent } from './pages/cuisine/cuisine.component';
 import { EventsComponent } from './pages/events/events.component';
-
+import { ItineraryComponent } from './pages/itinerary/itinerary.component';
+import { ContactusComponent } from './pages/contactus/contactus.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    AdminComponent,
     FooterComponent,
     ShowdestinationComponent,
     HotelslistComponent,
@@ -36,6 +35,8 @@ import { EventsComponent } from './pages/events/events.component';
     CulturalplacesComponent,
     CuisineComponent,
     EventsComponent,
+    ItineraryComponent,
+    ContactusComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
