@@ -1,0 +1,12 @@
+.content-header-h3{ font-size:28px; padding:15px 0px; color:#0099da;}
+.content-left-top-right-p{ font-size:14px; margin-top:-20px; padding:15px 0px 0px 20px; 
+text-align:justify; color:#000; line-height:23px;}
+.content-date{ color:#0099da; font-style:italic; font-size:13px; padding:0px 0px 5px;}
+.content-right-p{padding:0px 0px 10px; font-size:12px; text-align:justify;}
+.my_form{border-radius:2px; border:1px solid #0099da; margin:10px auto; height:30px;  padding:0px 10px;}
+.form-textarea{ border-radius:2px; border:1px solid #0099da; margin:5px auto; padding:0px 10px;}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+	.content-left-top-right-p{ margin:0px;} .content-header-h3{ text-align:center !important; font-size:18px;}
+	}
+@media only screen and (min-width:600px) and (max-width:768px){ .content-header-h3{ font-size:18px;}}
